@@ -1,0 +1,39 @@
+header{
+    display: flex;
+    background-color: var(--azulnegro);
+    padding: 1rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    flex-basis: 40%;
+}
+
+.nav{
+    flex-basis: 60%;
+}
+
+.logo img{
+    width: 30%;
+}
+
+.menu-item{
+    font-family: 'Marcellus', serif;
+    color: var(--blanco);
+    font-size: 1.5rem;
+    text-decoration: none;
+    padding: 0 1rem;
+}
+
+.btn-azul{
+    background-color: var(--azuloscuro);
+    color: var(--blanco);
+    padding: 0.5rem 1rem ;
+    font-family: 'Marcellus', serif;
+    font-size: 1.5rem;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
